@@ -15,7 +15,7 @@ export default {
     }
   }],
   options: {
-    'arg:target': '`v-scroll:#target="callback"` The target watched for scroll changes. Defaults to window but can be changed to any valid id selector.',
+    'arg:target': '`v-scroll:#scroll-target="callback"` The target watched for scroll changes. Defaults to window but can be changed to any valid id selector.',
     'value': '`v-scroll="callback"` The function to invoke on target scroll'
   }
 }
